@@ -43,6 +43,7 @@ namespace Gazi.KazanMyo.Sube2.DongulerApp
             int sayi2 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Tek/Çift?");
+            int sonuc = Console.ReadLine().ToLower() == "tek" ? 1 : 0;
 
             int toplam = 0;
 
@@ -61,11 +62,11 @@ namespace Gazi.KazanMyo.Sube2.DongulerApp
             //Depo-Repository
             for (int i = sayi1; i <= sayi2; i++)
             {
-                if (i % 2 == 0)
+                if (i % 2 == sonuc)
                 {
                     Console.WriteLine(i);
                     toplam = toplam + i;
-                }
+                }     
             }
             Console.WriteLine(toplam);
             Console.ReadKey();
