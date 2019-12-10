@@ -55,7 +55,7 @@ namespace Gazi.KazanMyo.Sube2.DongulerApp
                 sayi1 = sayi2;
                 sayi2 = temp;
             }
-
+            //
             //5%2=1
             //Github-Visual Studio Github Extension
             //Depo-Repository
