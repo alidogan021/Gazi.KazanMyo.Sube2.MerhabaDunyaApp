@@ -1,0 +1,141 @@
+using System;
+
+namespace ali_doğan_021
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // girilen sayı kadar ekrana yazdırma
+
+            // Console.WriteLine("bir sayı giriniz");
+            //var sayı = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= sayı; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+
+            // kullanıcının girdiği sayıları 5'e tam bölünenler
+
+            //Console.WriteLine("bir sayı giriniz");
+            //var sayı1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("bir sayı giriniz");
+            //var sayı2 = int.Parse(Console.ReadLine());
+            //for (int i = sayı1; i <= sayı2; i++)
+            //{
+            //    if (i % 5 == 0)
+            //    { Console.WriteLine(i); }
+            //}
+
+
+
+            //girilen sayıyı tersten yazma
+
+            //Console.WriteLine("bir sayı giriniz");
+            //var sayı = int.Parse(Console.ReadLine());
+            //for (int i = sayı - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+
+
+            //girilen sayının 0 ile arsıdnaki çift sayılar
+
+            //Console.WriteLine("bir sayı giriniz");
+            //var sayı = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i <= sayı; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+
+            //girilen sayı ile 0 arsındaki rek sayılar
+
+            //Console.WriteLine("bir sayı giriniz");
+            //var sayı = int.Parse(Console.ReadLine());
+            //for (int i = 0; i <= sayı; i++)
+            //{
+            //    if (i % 2 == 1)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+
+
+            // a-z ye ekrana yazdırma
+
+            //char h;
+            //for (h = 'a'; h <= 'z'; h++)
+            //{
+            //    //Console.Write(karakter + " "); 
+            //    Console.WriteLine("{0} ", h);
+            //}
+
+
+
+            // 1 ile 100 arasındaki sayıların 3'e tam bölünenler
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if (i % 3 == 0)
+            //    { Console.WriteLine(i); }
+            //}
+
+
+            //girilen 2 sayı arsındaki sayıları yazar
+
+            //Console.Write("1. Sayıyı girin:");
+            //int sayi1 = int.Parse(Console.ReadLine());
+            //Console.Write("2. Sayıyı girin:");
+            //int sayi2 = int.Parse(Console.ReadLine());
+            //for (int i = sayi1; i <= sayi2; i++)
+            //{
+            //    Console.WriteLine(i);
+
+
+            //100 den 0 'a ters yazar
+
+            //for (int i = 100; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //girilen bir metnin girilen sayı kadar yazılır
+
+            //Console.Write("Metni Girin : ");
+            //string metin = Console.ReadLine();
+            //Console.Write("Kaç defa yazdırılsın : ");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //for (int i = 1; i <= sayi; i++)
+            //{
+            //    Console.WriteLine(metin);
+            //}
+
+
+
+
+
+
+            Console.ReadKey();
+
+
+
+            }
+
+
+
+        }
+        
+        }
+  
